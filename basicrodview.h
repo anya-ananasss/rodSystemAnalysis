@@ -7,9 +7,8 @@ class BasicRodView {
 private:
   QRect rect;
   double forceValue;
-  //возможно, объект линии
   double q;
-  double trueLength;
+  double trueHeight;
   double trueWidth;
 
 public:
@@ -19,14 +18,14 @@ public:
   QRect getRect() const;
   double getForceValue() const;
   double getQ() const;
-  double getTrueLength() const;
+  double getTrueHeight() const;
   double getTrueWidth() const;
 
   // Сеттеры
   void setRect(const QRect &rect);
   void setForceValue(double forceValue);
   void setQ(double q);
-  void setTrueLength(double trueLength);
+  void setTrueHeight(double trueHeight);
   void setTrueWidth(double trueWidth);
 };
 

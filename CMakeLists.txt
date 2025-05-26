@@ -29,6 +29,9 @@ if(${QT_VERSION_MAJOR} GREATER_EQUAL 6)
         basicrodview.h
         paramsblock.h
         paramsblock.cpp
+        diagramParamsCalculation.cpp
+        diagramParamsCalculation.h
+        rods.h rods.cpp
     )
 # Define target properties for Android with Qt 6 as:
 #    set_property(TARGET rodSystemAnalysis APPEND PROPERTY QT_ANDROID_PACKAGE_SOURCE_DIR

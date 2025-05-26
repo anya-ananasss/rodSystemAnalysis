@@ -2,7 +2,7 @@
 QRect BasicRodView::getRect() const { return rect; }
 double BasicRodView::getForceValue() const { return forceValue; }
 double BasicRodView::getQ() const { return q; }
-double BasicRodView::getTrueLength() const { return trueLength; }
+double BasicRodView::getTrueHeight() const { return trueHeight; }
 double BasicRodView::getTrueWidth() const { return trueWidth; }
 
 void BasicRodView::setRect(const QRect &rect) { this->rect = rect; }
@@ -11,7 +11,7 @@ void BasicRodView::setForceValue(double forceValue) {
 }
 void BasicRodView::setQ(double q) { this->q = q; }
 
-void BasicRodView::setTrueLength(double trueLength) { this->trueLength = trueLength; }
+void BasicRodView::setTrueHeight(double trueHeight) { this->trueHeight = trueHeight; }
 
 void BasicRodView::setTrueWidth(double trueWidth) { this->trueWidth = trueWidth; }
 
